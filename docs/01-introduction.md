@@ -1,13 +1,13 @@
 # Introduction to Product Catalog Service Workshop
 
-Welcome to this hands-on lab! In this tutorial, you'll learn how to containerize and run the Product Catalog Service Tutorial application using Docker.
+In this labspace, you're going to learn how to build and run a Product Catalog application using Docker. 
 
 ## What You'll Learn
 
 - How to containerize a Product Catalog application
 - Working with Docker and Docker Compose
 - Integration testing with Testcontainers
-- Testing containerized applications
+- Securing the container images using Docker Scout
 
 ## Application architecture
 
