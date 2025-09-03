@@ -1,4 +1,4 @@
-### Adding Products to the Catalog
+# Adding Products to the Catalog
 
 Let's access the Web Client
 
