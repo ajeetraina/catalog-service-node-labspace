@@ -2,14 +2,14 @@
 
 For a Scout demo, the following patch will adjust the Dockerfile to use an older base image and install an older version of Express, allowing you to demo out-of-date base images and vunlerable dependencies.
 
-```
+```bash
 git apply --whitespace=fix demo/scout.patch
 ```
 
 Let's build the Docker image.
 
 
-```
+```bash
 docker build -t scout:v1.0 .
 ```
 
@@ -19,7 +19,7 @@ Open up `package.json` file and change express version from 4.17.3 to 4.19.2.
 
 Next, run `npm install` before running the following command
 
-```
+```bash
 docker build -t scout:v2.0 .
 ```
 
