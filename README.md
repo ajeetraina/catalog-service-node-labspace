@@ -3,6 +3,14 @@
 This is a comprehensive Docker demonstration project created by the Docker Team that showcases multiple Docker services and development practices in a single Node.js application. 
 It serves as both a functional catalog service API and a learning resource for Docker-based development workflows.
 
+## Core Architecture
+
+API Service: A Node.js application that provides a product catalog API with the following data sources:
+- PostgreSQL database for storing product data
+- AWS S3 bucket for product image storage
+- External inventory service for inventory data
+- Kafka cluster for publishing product updates
+
 ## Running This Labspace
 
 To run this labspace, you'll need Docker installed on your system.
