@@ -1,25 +1,30 @@
 # Getting Started
 
-Let's explore the application structure and understand what we're working with.
+## Bring up the Compose Services
 
-## Explore the Project Structure
-
-First, let's see what files are in our project:
 
 ```bash
-ls -la
+docker compose up -d --build
 ```
 
-## Application Overview
-
-This project is a Node.js application that demonstrates containerization with Docker.
-
-Let's look at the existing README for more details:
+## Ensure that all services are running
 
 ```bash
-cat README.md
+  docker compose ps
 ```
+
+## Bring up the main application
+
+```bash
+npm install --omit=optional
+npm run dev
+```
+
+Once everything is up and running, you can open the demo client at http://localhost:5173
+
+
 
 ## Next Steps
 
-In the next section, we'll start containerizing this application.
+In the next section, we'll start adding some products to our catalog. Head over to [Adding Products](./03-adding-products.md) to continue.
+

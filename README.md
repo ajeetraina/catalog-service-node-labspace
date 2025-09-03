@@ -29,4 +29,10 @@ CONTENT_PATH=$PWD docker compose -f oci://dockersamples/labspace-content-dev up
 - `docs/` - Contains the tutorial markdown files
 - Source code files - The application being taught
 
+## Author
 
+Ajeet S Raina
+
+---
+
+*Original README content has been preserved in README.md.original*

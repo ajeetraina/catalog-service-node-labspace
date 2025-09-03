@@ -1,13 +1,12 @@
 # Next Steps
 
-Congratulations! You've successfully containerized and run the application.
+Congratulations! You've successfully containerized, tested and secured the application.
 
 ## What You've Learned
 
-- How to create and build Docker images
-- Running containers with proper port mapping
-- Using Docker Compose for multi-service applications
-- Basic debugging and testing techniques
+- How to run a multi-container application using Docker Compose
+- How to test a containerized application using Testcontainers
+- How to secure your application using Docker Scout
 
 ## Further Exploration
 
@@ -40,7 +39,7 @@ Here are some additional topics you might want to explore:
 Before finishing, let's clean up our environment:
 
 ```bash
-docker compose down
+docker compose down -v
 docker image rm my-app
 ```
 
