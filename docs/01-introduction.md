@@ -18,7 +18,7 @@ This sample app provides an API that utilizes the following setup:
 - Inventory data comes from an external inventory service
 - Updates to products are published to a Kafka cluster
 
-![Application architecture](images/architecture.png)
+![Application architecture](./images/architecture.png)
 
 During development, containers provide the following services:
 
@@ -27,7 +27,7 @@ During development, containers provide the following services:
 - WireMock is used to mock the external inventory service
 - pgAdmin and kafbat are added to visualize the PostgreSQL database and Kafka cluster
 
-![Dev environment architecture](images/dev-environment-architecture.png)
+![Dev environment architecture](./images/dev-environment-architecture.png)
 
 ## Prerequisites
 
