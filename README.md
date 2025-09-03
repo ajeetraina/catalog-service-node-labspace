@@ -1,4 +1,4 @@
-# Docker Catalog Service Tutorial - Docker Labspace
+# Product Catalog Service Tutorial - Docker Labspace
 
 This is a comprehensive Docker demonstration project created by the Docker Team that showcases multiple Docker services and development practices in a single Node.js application. 
 It serves as both a functional catalog service API and a learning resource for Docker-based development workflows.
