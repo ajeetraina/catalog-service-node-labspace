@@ -189,10 +189,13 @@ If you encounter issues with Testcontainers:
 3. **Resource Limits**: Check if Docker has sufficient resources (CPU, memory)
 4. **Network Issues**: Ensure containers can communicate with each other
 
-## Next Steps
 
 Now that you've learned how to test your application with Testcontainers, you can:
 
 1. Add more tests to improve coverage
 2. Integrate tests into your CI/CD pipeline
+
+## Next Steps
+
+In the next section, we'll see how to secure your container images using Docker Scout. Head over to [Securing apps](securing-app.md) to continue.
 
