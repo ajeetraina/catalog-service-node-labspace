@@ -1,19 +1,31 @@
-title: Docker Catalog Service Tutorial
+title: Docker Product Catalog Service
 description: |
-  Learn Docker by building and running a Node.js catalog service
+  Learn Docker by building and running a comprehensive Node.js catalog service with PostgreSQL, 
+  Kafka, S3, and debugging real-world issues in a containerized environment.
+  
+  This hands-on lab demonstrates modern application development with:
+  - Microservices architecture with Node.js
+  - PostgreSQL database integration
+  - Kafka message streaming
+  - S3 storage with LocalStack
+  - Container debugging and testing
+  - Real bug fixing in production-like environments
+  
 author: Ajeet S Raina
 sections:
-  - title: Introduction
+  - title: Introduction & Architecture
     contentPath: ./docs/01-introduction.md
-  - title: Getting Started
-    contentPath: ./docs/02-getting-started.md
-  - title: Docker Basics
-    contentPath: ./docs/03-docker-basics.md
-  - title: Building the Application
-    contentPath: ./docs/04-building-app.md
+  - title: Environment Setup
+    contentPath: ./docs/02-environment-setup.md
+  - title: Understanding the Application Stack
+    contentPath: ./docs/03-application-stack.md
   - title: Running with Docker Compose
-    contentPath: ./docs/05-docker-compose.md
-  - title: Testing and Debugging
-    contentPath: ./docs/06-testing-debugging.md
-  - title: Next Steps
-    contentPath: ./docs/07-next-steps.md
+    contentPath: ./docs/04-docker-compose.md
+  - title: Exploring the Services
+    contentPath: ./docs/05-exploring-services.md
+  - title: Debugging & Fixing Issues
+    contentPath: ./docs/06-debugging-fixing.md
+  - title: Testing & Validation
+    contentPath: ./docs/07-testing-validation.md
+  - title: Advanced Topics
+    contentPath: ./docs/08-advanced-topics.md
