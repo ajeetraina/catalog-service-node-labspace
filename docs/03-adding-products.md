@@ -52,3 +52,7 @@ Save the file and create a new product using the web UI.
 
 Validate the message has the expected contents.
 
+### Next Steps
+
+In the next section, we'll see how to perform the integration testing using Testcontainers. Head over to [Testing apps](testing-app.md) to continue.
+
