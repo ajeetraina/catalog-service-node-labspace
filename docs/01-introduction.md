@@ -27,7 +27,7 @@ During development, containers provide the following services:
 - WireMock is used to mock the external inventory service
 - pgAdmin and kafbat are added to visualize the PostgreSQL database and Kafka cluster
 
-![Dev environment architecture](ev-environment-architecture.png)
+![Dev environment architecture](dev-environment-architecture.png)
 
 ## Prerequisites
 
