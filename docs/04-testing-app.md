@@ -53,7 +53,8 @@ First, install the necessary packages:
 npm install
 ```
 
-Run the unit test.
+
+Run the unit test:
 
 ```bash
 npm run unit-test
