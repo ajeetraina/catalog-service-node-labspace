@@ -47,7 +47,13 @@ Key integration test files:
 
 ### Unit Tests
 
-To run the unit tests:
+First, install the necessary packages:
+
+```bash
+npm install
+```
+
+Run the unit test.
 
 ```bash
 npm run unit-test
