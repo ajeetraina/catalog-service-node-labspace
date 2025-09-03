@@ -1,0 +1,19 @@
+title: Docker Catalog Service Tutorial
+description: |
+  Learn Docker by building and running a Node.js catalog service
+author: Ajeet S Raina
+sections:
+  - title: Introduction
+    contentPath: ./docs/01-introduction.md
+  - title: Getting Started
+    contentPath: ./docs/02-getting-started.md
+  - title: Docker Basics
+    contentPath: ./docs/03-docker-basics.md
+  - title: Building the Application
+    contentPath: ./docs/04-building-app.md
+  - title: Running with Docker Compose
+    contentPath: ./docs/05-docker-compose.md
+  - title: Testing and Debugging
+    contentPath: ./docs/06-testing-debugging.md
+  - title: Next Steps
+    contentPath: ./docs/07-next-steps.md
