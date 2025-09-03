@@ -7,13 +7,11 @@ sections:
     contentPath: ./docs/01-introduction.md
   - title: Getting Started
     contentPath: ./docs/02-getting-started.md
-  - title: Building the Application
-    contentPath: ./docs/03-building-app.md
   - title: Adding the Products
-    contentPath: ./docs/04-adding-products.md
+    contentPath: ./docs/03-adding-products.md
   - title: Testing the Application
-    contentPath: ./docs/05-testing-app.md
+    contentPath: ./docs/04-testing-app.md
   - title: Securing the Application
-    contentPath: ./docs/06-securing-app.md
+    contentPath: ./docs/05-securing-app.md
   - title: Next Steps
-    contentPath: ./docs/07-next-steps.md
+    contentPath: ./docs/06-next-steps.md
